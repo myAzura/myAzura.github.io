@@ -4,13 +4,29 @@
   
     
     <entry>
-      <title>article title</title>
-      <link href="posts/a6f5b56e.html"/>
-      <url>posts/a6f5b56e.html</url>
+      <title>数据库加控制台简单学生管理系统</title>
+      <link href="posts/e3e08109.html"/>
+      <url>posts/e3e08109.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>首先建学生表</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">create table student<span class="token punctuation">(</span>    <span class="token function">id</span>      int<span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span> auto_increment        primary key,    stuid  varchar<span class="token punctuation">(</span><span class="token number">30</span><span class="token punctuation">)</span>    null,    stuname varchar<span class="token punctuation">(</span><span class="token number">30</span><span class="token punctuation">)</span>    null,    <span class="token builtin class-name">pwd</span>    varchar<span class="token punctuation">(</span><span class="token number">30</span><span class="token punctuation">)</span>    null,    math    int default <span class="token string">'0'</span> null,    eng    int default <span class="token string">'0'</span> null,    java    int default <span class="token string">'0'</span> null,    class  int default <span class="token string">'0'</span> null<span class="token punctuation">)</span>    charset <span class="token operator">=</span> utf8<span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>然后建老师表</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">create table teacher<span class="token punctuation">(</span>    <span class="token function">id</span>        int<span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span> auto_increment        primary key,    teacherid varchar<span class="token punctuation">(</span><span class="token number">30</span><span class="token punctuation">)</span>    null,    <span class="token builtin class-name">pwd</span>      varchar<span class="token punctuation">(</span><span class="token number">30</span><span class="token punctuation">)</span>    null,    class    int default <span class="token string">'0'</span> null<span class="token punctuation">)</span>    charset <span class="token operator">=</span> utf8<span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
       
       
+      <categories>
+          
+          <category> java篇 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> mysql </tag>
+            
+            <tag> IDEA </tag>
+            
+            <tag> java </tag>
+            
+        </tags>
       
     </entry>
     

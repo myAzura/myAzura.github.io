@@ -6,7 +6,7 @@
   <link href="https://myazura.github.io/atom.xml" rel="self"/>
   
   <link href="https://myazura.github.io/"/>
-  <updated>2021-08-19T07:30:35.676Z</updated>
+  <updated>2021-08-20T12:58:42.383Z</updated>
   <id>https://myazura.github.io/</id>
   
   <author>
@@ -17,13 +17,13 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>article title</title>
-    <link href="https://myazura.github.io/posts/a6f5b56e.html"/>
-    <id>https://myazura.github.io/posts/a6f5b56e.html</id>
-    <published>2021-08-19T07:23:04.000Z</published>
-    <updated>2021-08-19T07:30:35.676Z</updated>
+    <title>数据库加控制台简单学生管理系统</title>
+    <link href="https://myazura.github.io/posts/e3e08109.html"/>
+    <id>https://myazura.github.io/posts/e3e08109.html</id>
+    <published>2021-08-19T16:00:00.000Z</published>
+    <updated>2021-08-20T12:58:42.383Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>首先建学生表</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">create table student<span class="token punctuation">(</span>    <span class="token function">id</span>      int<span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span> auto_increment        primary key,    stuid  varchar<span class="token punctuation">(</span><span class="token number">30</span><span class="token punctuation">)</span>    null,    stuname varchar<span class="token punctuation">(</span><span class="token number">30</span><span class="token punctuation">)</span>    null,    <span class="token builtin class-name">pwd</span>    varchar<span class="token punctuation">(</span><span class="token number">30</span><span class="token punctuation">)</span>    null,    math    int default <span class="token string">'0'</span> null,    eng    int default <span class="token string">'0'</span> null,    java    int default <span class="token string">'0'</span> null,    class  int default <span class="token string">'0'</span> null<span class="token punctuation">)</span>    charset <span class="token operator">=</span> utf8<span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>然后建老师表</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">create table teacher<span class="token punctuation">(</span>    <span class="token function">id</span>        int<span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span> auto_increment        primary key,    teacherid varchar<span class="token punctuation">(</span><span class="token number">30</span><span class="token punctuation">)</span>    null,    <span class="token builtin class-name">pwd</span>      varchar<span class="token punctuation">(</span><span class="token number">30</span><span class="token punctuation">)</span>    null,    class    int default <span class="token string">'0'</span> null<span class="token punctuation">)</span>    charset <span class="token operator">=</span> utf8<span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
     
     
       
@@ -33,6 +33,14 @@
     
     
     
+    <category term="java篇" scheme="https://myazura.github.io/categories/java%E7%AF%87/"/>
+    
+    
+    <category term="mysql" scheme="https://myazura.github.io/tags/mysql/"/>
+    
+    <category term="IDEA" scheme="https://myazura.github.io/tags/IDEA/"/>
+    
+    <category term="java" scheme="https://myazura.github.io/tags/java/"/>
     
   </entry>
   
