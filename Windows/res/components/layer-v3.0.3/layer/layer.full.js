@@ -1,8 +1,8 @@
 
 /**
  @Name：layer v3.0.3 Web弹层组件
- @Author：贤心
- @Site：http://layer.layui.com
+ @Author：11
+ @Site：https://my-azura-github-io.vercel.app/
  @License：MIT
 
  */
